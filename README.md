@@ -2,7 +2,7 @@
 
 By understanding how malware can be spread via email, one can better understand how to protect computers and their users. Many people infect their computers unintentionally by downloading malicious files from their emails. This project explores the spread of malware by sending malicious files out over email. The file downloads Python on the host computer and uses it to further spread itself. With the user granting permission for the file to run once, it is able to alter the computer’s security settings and download third party software, as well as send out emails from the user’s account. This demonstrates the risk of granting permissions to unknown files.
 
-To use this script you need to: 
+# Usage 
 
 Step 1. Python script to send emails
 Set up a gmail account
