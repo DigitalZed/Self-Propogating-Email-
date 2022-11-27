@@ -5,25 +5,26 @@ By understanding how malware can be spread via email, one can better understand 
 # Usage 
 
 Step 1. Python script to send emails
-Set up a gmail account
-Enable 2 factor authentication
-Create an app password
-Put the app password as the password in the python script 
-The file that is being sent by the script must be in the same directory as the script
+
+1. Set up a gmail account
+2. Enable 2 factor authentication
+3. Create an app password
+4. Put the app password as the password in the python script 
+5. The file that is being sent by the script must be in the same directory as the script
 
 Step 2. Batch script
-The .bat file needs to be made into an executable file
-Open a text file and save it as .exe
-Go to C:\Windows\System32 and run iexpress.exe as an administrator
-Select “Create new Self Extracting Drive”
-Package Purpose: Select “Extract files and run an installation command”
-Package Title: Enter what you would like to name your .exe
-Confirmation Prompt: Select “No prompt”
-License Agreement: Select “Do not display a license”
-Packaged FIles: Add the bat file
-Install Program to Launch: Enter cmd /c script.bat in the Install Program field replacing script.bat with the name of your .bat file
-Show window: Select “Hidden”
-Finished Message: Select “No message”
-Package Name and Options: Add the exe file you created in Step 2, #1
-Configure Restart: Select “No restart”
-Save Self Extraction: Select “Don’t Save”
+1. The .bat file needs to be made into an executable file
+2. Open a text file and save it as .exe
+3. Go to C:\Windows\System32 and run iexpress.exe as an administrator
+4. Select “Create new Self Extracting Drive”
+5. Package Purpose: Select “Extract files and run an installation command”
+6.Package Title: Enter what you would like to name your .exe
+7. Confirmation Prompt: Select “No prompt”
+8. License Agreement: Select “Do not display a license”
+9. Packaged FIles: Add the bat file
+10. Install Program to Launch: Enter cmd /c script.bat in the Install Program field replacing script.bat with the name of your .bat file
+11. Show window: Select “Hidden”
+12. Finished Message: Select “No message”
+13. Package Name and Options: Add the exe file you created in Step 2, #1
+14. Configure Restart: Select “No restart”
+15. Save Self Extraction: Select “Don’t Save”
